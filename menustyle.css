@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap');
+*{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+.center{
+    text-align: center;
+}
+body{
+    background-color: hsl(230, 100%, 91%);
+}
+nav{
+    padding-top: 10px;
+}
+
+hr{
+    background-color: rgb(0, 6, 37);
+}
+
+
+#calcbtn{
+    border: none;
+    width: 90%;
+    height: 135px;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    font-weight: 600;
+
+    background-color: rgb(0, 12, 53);
+    color: rgb(255, 255, 255);
+    animation: calcbtn 0.75s;
+}
+@keyframes calcbtn {
+    from{
+        width: 0%;
+        height: 0px;
+        font-size: 0%;
+    }
+    to{
+        width: 90%;
+        height: 135px;
+        font-size: 2.5em;
+    }
+}
